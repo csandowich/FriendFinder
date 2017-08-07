@@ -10,7 +10,7 @@ app.use(bodyParser.text());
 app.use(bodyParser.json({
   type: "application/vnd.api+json"
 }));
-var port = process.env.PORT || 3000;
+var PORT = process.env.PORT || 3000;
 const apirout = require("./app/routing/apiroutes")(app);
 const htmlrout = require("./app/routing/htmlroutes")(app);
 
