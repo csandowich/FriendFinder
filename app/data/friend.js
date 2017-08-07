@@ -1,0 +1,100 @@
+
+
+ var compadres = [
+ {
+  "name":"Samuel L. Jackson",
+  "photo":"http://static.boredpanda.com/blog/wp-content/uploads/2016/01/celebrity-look-alikes-animals-451__700.jpg",
+  "scores":[
+      5,
+      1,
+      4,
+      2,
+      5,
+      1,
+      5,
+      1,
+      4,
+      1
+    ]
+},{
+  "name":"Snoop Dog",
+  "photo":"http://viralnewswtf.com/wp-content/uploads/2017/04/snoop-615x440.jpg",
+  "scores":[
+      1,
+      1,
+      4,
+      2,
+      5,
+      3,
+      2,
+      5,
+      5,
+      1
+    ]
+},
+{
+  "name":"Peyton Manning",
+  "photo":"http://stories.barkpost.com/wp-content/uploads/2014/08/peytonanddog.jpg",
+  "scores":[
+      3,
+      1,
+      4,
+      4,
+      3,
+      1,
+      2,
+      5,
+      4,
+      3
+    ]
+},
+{
+  "name":"Jack Black",
+  "photo":"https://images.chesscomfiles.com/uploads/v1/images_users/tiny_mce/RonaldJosephCote/phpcW75Od.jpeg",
+  "scores":[
+      5,
+      1,
+      4,
+      1,
+      1,
+      1,
+      5,
+      5,
+      4,
+      5
+    ]
+},
+{
+  "name":"Ahmed",
+  "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+  "scores":[
+      2,
+      1,
+      4,
+      2,
+      2,
+      1,
+      2,
+      5,
+      4,
+      1
+    ]
+},
+{
+  "name":"Putin",
+  "photo":"http://static.boredpanda.com/blog/wp-content/uploads/2016/01/celebrity-look-alikes-animals-43__700.jpg",
+  "scores":[
+      1,
+      4,
+      4,
+      4,
+      5,
+      4,
+      2,
+      5,
+      4,
+      1
+    ]
+}
+];
+module.exports = compadres;
