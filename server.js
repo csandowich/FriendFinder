@@ -10,7 +10,7 @@ app.use(bodyParser.text());
 app.use(bodyParser.json({
   type: "application/vnd.api+json"
 }));
-
+var port = process.env.PORT || 3000;
 const apirout = require("./app/routing/apiroutes")(app);
 const htmlrout = require("./app/routing/htmlroutes")(app);
 
@@ -27,4 +27,6 @@ const htmlrout = require("./app/routing/htmlroutes")(app);
 //   res.sendFile(path.join(__dirname, "/app/public/survey.html"));
 // });
 
-app.listen(3000);
+app.listen(PORT, function() {
+    console.log("App listening on PORT " + PORT);
+});
